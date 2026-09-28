@@ -9,6 +9,7 @@ This year I'm building open-source versions of the problems I know best, in publ
 | Project | What it is | Status |
 |---|---|---|
 | [**payee-match**](https://github.com/softvasco/payee-match) | Verification of Payee name matching for .NET, following the EPC VOP scheme. Explainable match, close match and no match for SEPA instant payments. | name normaliser done, matchers next |
+| [**household-finance**](https://github.com/softvasco/household-finance) | Self-hosted household finance app: accounts, budgets, credits, net worth, car and pet costs. ASP.NET Core, EF Core, React, Docker. | in use, adding tests |
 | [**ledger-core**](https://github.com/softvasco/ledger-core) | Event-sourced double-entry banking ledger in .NET 10: CQRS, outbox, PostgreSQL event store, .NET Aspire, OpenTelemetry. | domain model in progress |
 
 #### Coming up
