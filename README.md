@@ -22,4 +22,11 @@ This year I'm building open-source versions of the problems I know best, in publ
 
 `C#` `.NET 10` `ASP.NET Core` `EF Core` `Blazor` `Azure` `Service Bus` `SQL Server` `PostgreSQL` `Docker` `.NET Aspire` `OpenTelemetry` `Rust` `Python`
 
+#### Writing
+
+Short notes on what I learn while building these, with real code: [softvasco.github.io](https://softvasco.github.io)
+
+- [Normalising payee names: where NFKD stops](https://softvasco.github.io/2026/09/where-nfkd-stops/)
+- [Why 0.05 × 0.5 is 0.02 in my ledger](https://softvasco.github.io/2026/09/rounding-in-a-ledger/)
+
 [LinkedIn](https://www.linkedin.com/in/softvasco)
