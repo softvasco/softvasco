@@ -1,24 +1,25 @@
 ### Hi, I'm Vasco
 
-**Senior .NET Backend Engineer** in Lisbon. 12+ years building secure, high-performance systems for central and retail banks: event-driven architectures, legacy modernisation and regulated fintech platforms.
+Senior .NET backend engineer in Lisbon. 12+ years building secure, high-performance systems for central and retail banks: payments, event-driven architectures, legacy modernisation and regulated fintech platforms.
 
-- Building in public: one real commit a day, from 28 Sep 2026 to 26 Sep 2027.
-- Focus: C# / .NET 10, ASP.NET Core, EF Core, Blazor, Azure, CQRS and Event Sourcing, with Rust and Python where they fit.
-- Blog and notes: [softvasco.com](https://softvasco.com) · [LinkedIn](https://www.linkedin.com/in/softvasco)
+This year I'm building open-source versions of the problems I know best, in public, with the design decisions written down.
 
-#### What I'm building this year
+#### Working on now
 
-| Project | What it shows |
-|---|---|
-| **ledger-core** | Event-sourced double-entry banking ledger: CQRS, outbox, Service Bus, .NET Aspire, OpenTelemetry, Blazor back-office |
-| **loan-flow** | Consumer credit origination: APR (EU CCD) engine, explainable rules, approval workflow |
-| **legacy-to-blazor** | Strangler-fig migration from WebForms to .NET 10 with YARP, plus a playbook |
-| **iso20022-rs** | Fast ISO 20022 parser in Rust with Python and .NET bindings |
-| **finguard-analyzers** | Roslyn analyzers that catch money, time and data-access bugs |
-| **ledger-ai** | MCP server over a ledger + Python fraud detection, done safely |
+| Project | What it is | Status |
+|---|---|---|
+| [**payee-match**](https://github.com/softvasco/payee-match) | Verification of Payee name matching for .NET, following the EPC VOP scheme. Explainable match, close match and no match for SEPA instant payments. | name normaliser done, matchers next |
+| [**ledger-core**](https://github.com/softvasco/ledger-core) | Event-sourced double-entry banking ledger in .NET 10: CQRS, outbox, PostgreSQL event store, .NET Aspire, OpenTelemetry. | domain model in progress |
+
+#### Coming up
+
+- **loan-flow**: consumer credit origination with an APR engine for the EU Consumer Credit Directive.
+- **iso20022-rs**: a fast ISO 20022 parser in Rust with .NET and Python bindings.
+- **finguard-analyzers**: Roslyn analyzers that catch money, time and data-access bugs.
+- **legacy-to-blazor**: a strangler-fig migration from WebForms to .NET 10, with a playbook.
 
 #### Stack
 
 `C#` `.NET 10` `ASP.NET Core` `EF Core` `Blazor` `Azure` `Service Bus` `SQL Server` `PostgreSQL` `Docker` `.NET Aspire` `OpenTelemetry` `Rust` `Python`
 
-![contribution snake](https://raw.githubusercontent.com/softvasco/softvasco/output/github-snake.svg)
+[LinkedIn](https://www.linkedin.com/in/softvasco)
