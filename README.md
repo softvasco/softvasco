@@ -14,9 +14,10 @@ This year I'm building open-source projects in public, with the design decisions
 
 #### Coming up
 
-- **loan-flow**: consumer credit origination with an APR engine for the EU Consumer Credit Directive.
+- **outbox-kit**: transactional outbox and inbox for .NET, with PostgreSQL, SQL Server, RabbitMQ, Azure Service Bus and Kafka.
 - **iso20022-rs**: a fast ISO 20022 parser in Rust with .NET and Python bindings.
-- **finguard-analyzers**: Roslyn analyzers that catch money, time and data-access bugs.
+- **backend-analyzers**: Roslyn analyzers for everyday backend bugs: missing cancellation, blocking on tasks, N+1 queries, raw SQL.
+- **mcp-kit**: expose an existing ASP.NET Core API to AI agents as MCP tools, with auth, redaction and audit.
 - **legacy-to-blazor**: a strangler-fig migration from WebForms to .NET 10, with a playbook.
 
 #### Stack
