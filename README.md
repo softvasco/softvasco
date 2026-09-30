@@ -1,14 +1,14 @@
 ### Hi, I'm Vasco
 
-Senior .NET backend engineer in Lisbon. 12+ years building secure, high-performance systems for central and retail banks: payments, event-driven architectures, legacy modernisation and regulated fintech platforms.
+Senior .NET backend engineer in Lisbon. 12+ years building APIs, event-driven services and high-performance integrations, and moving legacy applications onto current .NET. Most of it for central and retail banks, where correctness and uptime aren't optional.
 
-This year I'm building open-source versions of the problems I know best, in public, with the design decisions written down.
+This year I'm building open-source projects in public, with the design decisions written down as ADRs.
 
 #### Working on now
 
 | Project | What it is | Status |
 |---|---|---|
-| [**payee-match**](https://github.com/softvasco/payee-match) | Verification of Payee name matching for .NET, following the EPC VOP scheme. Explainable match, close match and no match for SEPA instant payments. | name normaliser done, matchers next |
+| [**payee-match**](https://github.com/softvasco/payee-match) | Fuzzy name matching for .NET with explainable results: normalisation, legal forms, initials and word order. Built for the EU Verification of Payee check. | name normaliser done, matchers next |
 | [**household-finance**](https://github.com/softvasco/household-finance) | Self-hosted household finance app: accounts, budgets, credits, net worth, car and pet costs. ASP.NET Core, EF Core, React, Docker. | in use, adding tests |
 | [**ledger-core**](https://github.com/softvasco/ledger-core) | Event-sourced double-entry banking ledger in .NET 10: CQRS, outbox, PostgreSQL event store, .NET Aspire, OpenTelemetry. | domain model in progress |
 
